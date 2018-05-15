@@ -34,7 +34,7 @@ $(".next").click(function(){
 				'opacity': opacity
 			});
 		}, 
-		duration: 500,
+		duration: 150,
 		complete: function(){
 			current_fs.hide();
 			animating = false;
@@ -75,7 +75,7 @@ $(".previous").click(function(){
 				'opacity': opacity
 			});
 		}, 
-		duration: 500,
+		duration: 150,
 		complete: function(){
 			current_fs.hide();
 			animating = false;
